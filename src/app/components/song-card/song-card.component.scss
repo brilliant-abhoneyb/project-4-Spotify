@@ -1,0 +1,27 @@
+.song__cards{
+    margin-left: 20px;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.song__card{
+    height: 250px;
+    width: 210px;
+    background: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.song__card-image{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.song__card-title{
+    font-weight: 600;
+}

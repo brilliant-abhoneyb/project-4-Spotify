@@ -5,7 +5,6 @@ import { SearchComponent } from './pages/search/search.component';
 import { PlaylistComponent } from './pages/playlist/playlist.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { LoginComponent } from './pages/login/login.component';
-import { SongCardComponent } from './components/song-card/song-card.component';
 import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
@@ -14,7 +13,6 @@ import { ButtonComponent } from './components/button/button.component';
         PlaylistComponent,
         SignupComponent,
         LoginComponent,
-        SongCardComponent,
         ButtonComponent
     ],
     imports: [ BrowserModule, AppRoutingModule ],
