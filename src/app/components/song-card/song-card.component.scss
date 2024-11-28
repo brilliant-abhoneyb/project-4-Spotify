@@ -6,8 +6,8 @@
 }
 
 .song__card{
-    height: 250px;
-    width: 210px;
+    height: 280px;
+    width: 200px;
     background: aqua;
     padding: 10px;
     border-radius: 10px;
@@ -23,5 +23,9 @@
 }
 
 .song__card-title{
+    margin-top: 10px;
     font-weight: 600;
+    font-size: 14px;
+    color: orange;
+    text-transform: capitalize;
 }
